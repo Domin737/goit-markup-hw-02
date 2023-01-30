@@ -23,10 +23,7 @@ body {
   font-size: 26px;
   color: #000000;
 }
-.nav-link {
-  text-decoration: none;
-}
-.nav-ul-link {
+.ul-link-no-type {
   list-style-type: none;
   margin: 0;
   padding: 0;
