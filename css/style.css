@@ -2,6 +2,27 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+.logo {
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  margin-top: 24px;
+}
+.logo-link {
+  text-decoration: none;
+}
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+}
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
 .img-projects {
   width: 370px;
   height: 294px;
