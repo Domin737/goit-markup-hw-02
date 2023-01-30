@@ -8,7 +8,7 @@ body {
   margin-left: 215px;
   margin-top: 24px;
 }
-.logo-link {
+.link-no-decoration {
   text-decoration: none;
 }
 .logo-web {
@@ -22,6 +22,14 @@ body {
   font-weight: 700;
   font-size: 26px;
   color: #000000;
+}
+.nav-link {
+  text-decoration: none;
+}
+.nav-ul-link {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .img-projects {
   width: 370px;
