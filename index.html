@@ -20,38 +20,50 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header id="sec-header">
-      <nav>
+    <header id="sec-header" class="sec-header">
+      <nav class="nav-ul-flex">
         <p class="logo">
-          <a class="link-no-decoration" href="./index.html">
+          <a class="link-no-decoration" href="#sec-header">
             <span class="logo-web">Web</span
             ><span class="logo-studio">Studio</span>
           </a>
         </p>
-        <ul class="ul-link-no-type">
-          <li>
-            <a class="link-no-decoration" href="./maintenance.html">Agencja</a>
+        <ul class="ul-link-no-type nav-ul-flex">
+          <li class="li-inline">
+            <a
+              class="link-no-decoration nav-li-design"
+              href="./maintenance.html"
+              >Agencja</a
+            >
           </li>
-          <li>
-            <a class="link-no-decoration" href="./portfolio.html">Portfolio</a>
+          <li class="li-inline">
+            <a class="link-no-decoration nav-li-design" href="./portfolio.html"
+              >Portfolio</a
+            >
           </li>
-          <li>
-            <a class="link-no-decoration" href="./maintenance.html">Kontakt</a>
+          <li class="li-inline">
+            <a
+              class="link-no-decoration nav-li-design"
+              href="./maintenance.html"
+              >Kontakt</a
+            >
+          </li>
+        </ul>
+        <ul class="ul-link-no-type nav-ul-flex">
+          <li class="li-inline">
+            <a
+              class="link-no-decoration li-design"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="li-inline">
+            <a class="link-no-decoration li-design" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
       </nav>
-      <ul class="ul-link-no-type">
-        <li>
-          <a class="link-no-decoration" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link-no-decoration" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
     </header>
     <main>
       <section id="sec-our-services">
@@ -169,26 +181,34 @@
         </figure>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p class="logo">
-        <a class="link-no-decoration" href="./index.html">
+        <a class="link-no-decoration" href="#sec-header">
           <span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span>
+          ><span class="logo-studio-footer">Studio</span>
         </a>
       </p>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <ul class="ul-link-no-type">
-        <li>
-          <a class="link-no-decoration" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link-no-decoration" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      <div id="footer-contact" class="footer-contact">
+        <address class="footer-li-design">
+          m. Warszawa, Aleje Jerozolimskie 21
+        </address>
+        <ul class="ul-link-no-type">
+          <li>
+            <a
+              class="link-no-decoration footer-li-design-tr"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a
+              class="link-no-decoration footer-li-design-tr"
+              href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
